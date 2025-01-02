@@ -1,56 +1,64 @@
-# User Management System
+# 👥 User Management System 🛠️💻
 
-## Overview
-This is a user management system built using **PHP**, **MySQL**, **Bootstrap**, and **CSS**. It includes features for user and admin functionalities, authentication, and task management. It is designed with security and usability in mind, incorporating techniques such as `.env` for sensitive data protection and a `config.php` file for configuration management.
+## 🌟 Overview
 
----
-
-## Features
-
-### Authentication
-- User registration and login/logout system.
-- Email verification using PHP Mailer for account activation.
-- Password reset functionality via email.
-
-### User Features
-- Update personal profile details.
-- Manage tasks with a "To Do" system:
-  - Add tasks.
-  - Update task statuses: **Done**, **Waiting**, **Deleted**.
-
-### Admin Features
-- View, update, and delete user accounts.
-- Activate or deactivate user accounts.
-- Manage all user tasks and profiles.
-
-### Security
-- Sensitive data such as database credentials are managed using `.env` files to ensure protection.
-- A `config.php` file is used to centralize configuration, making the system more secure and maintainable.
+This is a user management system built using **PHP** 🐘, **MySQL** 🛢️, **Bootstrap** 🎨, and **CSS** 🎭. It includes features for user and admin functionalities, authentication 🔒, and task management 📋. It is designed with security and usability in mind, incorporating techniques such as `.env` 🗝️ for sensitive data protection and a `config.php` ⚙️ file for configuration management.
 
 ---
 
-## Technologies Used
+## 🔑 Features
 
-- **PHP**: Core server-side scripting.
-- **MySQL**: Database management.
-- **Bootstrap**: Responsive design and styling.
-- **CSS**: Custom styling.
-- **PHP Mailer**: For sending account activation and password reset emails.
+### 🔐 Authentication
+
+- User registration ✍️ and login/logout system 🚪.
+- 📧 Email verification using PHP Mailer ✉️ for account activation ✅.
+- 🔄 Password reset functionality via email 📩.
+
+### 👤 User Features
+
+- 🖋️ Update personal profile details.
+- 🗂️ Manage tasks with a "To Do" system:
+  - ➕ Add tasks.
+  - 🔄 Update task statuses: **✅ Done**, **⏳ Waiting**, **🗑️ Deleted**.
+
+### 👑 Admin Features
+
+- 👀 View, update ✏️, and delete 🗑️ user accounts.
+- 🚦 Activate ✅ or deactivate 🚫 user accounts.
+- 📋 Manage all user tasks and profiles 📝.
+
+### 🛡️ Security
+
+- Sensitive data 🛠️ like database credentials are managed using `.env` files 🗝️ to ensure protection 🛡️.
+- A `config.php` ⚙️ file is used to centralize configuration 🗂️, making the system more secure 🔒 and maintainable 🛠️.
 
 ---
 
-## Installation
+## 💻 Technologies Used
 
-1. Clone the repository:
+- **PHP** 🐘: Core server-side scripting 📜.
+- **MySQL** 🛢️: Database management 📚.
+- **Bootstrap** 🎨: Responsive design 📱 and styling ✨.
+- **CSS** 🎭: Custom styling 🎨.
+- **PHP Mailer** ✉️: For sending account activation 🔔 and password reset emails 🔄.
+
+---
+
+## 🛠️ Installation
+
+1. 🛒 Clone the repository:
+
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Elhussin/toDo
    ```
 
-2. Set up the database:
-   - Import the `database.sql` file provided in the project.
+2. 🗄️ Set up the database:
 
-3. Configure environment variables:
-   - Create a `.env` file in the root directory.
+   - Import the `database.sql` 📁 file provided in the project.
+
+3. ⚙️ Configure environment variables:
+
+   - Create a `.env` file 📜 in the root directory 🏡.
    - Add the following environment variables:
      ```env
      DB_HOST=your_database_host
@@ -62,38 +70,57 @@ This is a user management system built using **PHP**, **MySQL**, **Bootstrap**, 
      MAIL_PASS=your_email_password
      ```
 
-4. Configure `config.php`:
-   - Ensure that `config.php` is set up to use the `.env` file for sensitive data.
+4. 🛠️ Configure `config.php`:
 
-5. Run the application:
-   - Deploy on a local server using tools like XAMPP or WAMP.
+   - Ensure that `config.php` is set up to use the `.env` file 📜 for sensitive data 🛡️.
 
----
+5. 🚀 Run the application:
 
-## Usage
-
-1. Access the system via the browser.
-2. Register or log in as a user/admin.
-3. Utilize the dashboard to:
-   - Manage tasks.
-   - Update profile information.
-   - Admin-specific functionalities such as managing users and tasks.
+   - Deploy on a local server 🖥️ using tools like XAMPP or WAMP 🛠️.
 
 ---
 
-## Future Enhancements
+## 📋 Usage
 
-- Add role-based access control for more granular permissions.
-- Implement a frontend framework like React or Vue.js for a more dynamic UI.
-- Enhance security with features like two-factor authentication.
+1. 🌐 Access the system via the browser 🖥️.
+2. 🖋️ Register ✍️ or log in 🚪 as a user/admin 👤.
+3. 📊 Utilize the dashboard to:
+   - 🗂️ Manage tasks 📋.
+   - 🖋️ Update profile information 🧑‍💼.
+   - Admin-specific functionalities 👑 such as managing users 👥 and tasks 📝.
+
+### 🌐 Links
+
+- Repository: [GitHub](https://github.com/Elhussin/toDo)
+- Demo: [to-do.infy.uk](http://to-do.infy.uk/)
+
+### 🔑 Demo Credentials
+
+**Admin**:
+- Email: taha2282015@gmail.com
+- Password: 12345
+
+**User**:
+- Email: hasin3112@gmail.com
+- Password: 12345
 
 ---
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with detailed information about your changes.
+## 🔮 Future Enhancements
+
+- Add role-based access control 🛡️ for more granular permissions 🔑.
+- Implement a frontend framework 🖥️ like React or Vue.js ⚛️ for a more dynamic UI 🎨.
+- Enhance security 🔒 with features like two-factor authentication 🔑.
 
 ---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🤝 Contributing
+
+Contributions 🤗 are welcome! Please fork 🍴 the repository 📂 and submit a pull request 🔄 with detailed information about your changes ✏️.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License 📝. See the LICENSE 📜 file for details 📖.
 
